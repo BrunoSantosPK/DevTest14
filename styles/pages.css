@@ -1,0 +1,25 @@
+.caixa-login {
+    background-color: #fff; min-height: 250px; display: flex; flex-direction: column;
+    margin-top: 30px; color: #4b506a; padding: 15px 10px;
+}
+
+.caixa-busca {
+    min-width: 70%;
+}
+
+.texto-log {
+    font-family: "Ubuntu", sans-serif; font-size: 15px; margin-top: 50px;
+}
+
+.resultado {
+    margin-top: 20px;
+}
+
+.tabela {
+    width: 100%; margin-top: 10px; text-align: center; font-family: "Ubuntu", sans-serif;
+    border-spacing: 0px;
+}
+
+td, th {
+    border-bottom: solid 1px #4b506a; padding: 7px 0px;
+}

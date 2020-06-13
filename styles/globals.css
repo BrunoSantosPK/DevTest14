@@ -1,0 +1,66 @@
+body {
+    margin: 0; display: flex; flex: 1; background-color: #4acd91; color: #fafafa;
+}
+
+header {
+    display: flex; flex-direction: row; background-color: #3dbb99;
+    width: 100%; justify-content: flex-end; padding: 15px 0px;
+    position: absolute; left: 0; right: 0; top: 0;
+}
+
+label {
+    font-family: "Ubuntu", sans-serif;
+}
+
+input {
+    font-family: "Ubuntu", sans-serif; padding: 5px; font-size: 16px; color: #4b506a;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif; font-size: 30px;
+}
+
+.item-menu {
+    padding: 0px 10px; cursor: pointer; font-family: "Ubuntu", sans-serif; font-weight: 700;
+    font-size: 19px;
+}
+
+.item-menu.ativo {
+    color: #4b506a;
+}
+
+.item-menu:hover {
+    color: #4b506a;
+}
+
+#root {
+    display: flex; width: 100%;
+}
+
+.page {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    width: 100%; min-height: 100vh;
+}
+
+.oculta {
+    display: none;
+}
+
+.botao {
+    font-family: "Ubuntu", sans-serif; font-size: 16px; margin-top: 10px; font-weight: 700;
+    background-color: #3dbb99; color: #fff; text-align: center;
+    padding: 5px 0px; border-radius: 3px; cursor: pointer; transition: opacity 0.5s;
+}
+
+.botao:hover {
+    opacity: 0.7;
+}
+
+@media(max-width: 450px) {
+    .item-menu {
+        font-size: 16px; display: flex; justify-content: center; align-items: center;
+        text-align: center;
+    }
+    h3 { margin-top: 90px; font-size: 26px; }
+}
